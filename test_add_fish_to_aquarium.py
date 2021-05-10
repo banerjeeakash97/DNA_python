@@ -1,5 +1,5 @@
 import unittest
-import add_fish
+from add_fish import add_fish_to_aquarium
 
 class TestAddFishToAquarium(unittest.TestCase):
     def test_add_fish_to_aquarium_success(self):
