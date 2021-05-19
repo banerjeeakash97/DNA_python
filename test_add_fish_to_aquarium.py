@@ -6,3 +6,5 @@ class TestAddFishToAquarium(unittest.TestCase):
         actual = add_fish_to_aquarium(fish_list=["shark", "tuna"])
         expected = {"tank_a": ["shark", "tuna"]}
         self.assertEqual(actual, expected)
+if __name__ == "__main__":
+    unittest.main()
